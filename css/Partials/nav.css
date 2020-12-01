@@ -1,0 +1,186 @@
+nav {
+  background: rgb(199, 239, 248, 0.7);
+  box-shadow: 2px 2px 3px 3px rgb(0, 0, 0, 0.3);
+  font-family: "Archivo Narrow", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  color: rgb(112, 112, 112);
+  text-decoration: none;
+}
+
+ul.submenu {
+  display: none;
+}
+
+.subitem > a {
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu,
+.submenu {
+  list-style-type: none;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 20px;
+  padding: 7.5px 10px 7.5px 0;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item:not(.button) a:hover,
+.item a:hover::after {
+  color: #ccc;
+}
+
+/* Mobile menu */
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 5px;
+}
+
+.menu li.subitem a {
+  padding: 15px;
+}
+
+.toggle {
+  order: 1;
+  font-size: 20px;
+}
+
+.item {
+  order: 3;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.active .item {
+  display: block;
+}
+
+/* Submenu up from mobile screens */
+.submenu {
+  display: none;
+}
+
+.submenu-active .submenu {
+  display: block;
+}
+
+.has-submenu i {
+  font-size: 12px;
+}
+
+.has-submenu > a::after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 900;
+  content: "\f078";
+  color: white;
+  padding-left: 5px;
+}
+
+.subitem a {
+  padding: 10px 15px;
+}
+
+.submenu-active {
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+/* Tablet menu */
+@media all and (min-width: 700px) {
+  .menu {
+    justify-content: center;
+  }
+
+  .logo {
+    flex: 1;
+  }
+
+  .item.button {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+
+  .toggle {
+    flex: 1;
+    text-align: right;
+    order: 2;
+  }
+
+  /* Button up from tablet screen */
+  .menu li.button a {
+    padding: 10px 15px;
+    margin: 5px 0;
+  }
+
+  .button a:hover {
+    text-decoration: none;
+  }
+
+  /* Desktop menu */
+  @media all and (min-width: 960px) {
+    .menu {
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      background: none;
+    }
+
+    .logo {
+      order: 0;
+    }
+
+    .item {
+      order: 1;
+      position: relative;
+      display: block;
+      width: auto;
+    }
+
+    .button {
+      order: 2;
+    }
+
+    .submenu-active .submenu {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 68px;
+      background: url(/img/MainBackgroundImg.png);
+    }
+
+    .toggle {
+      display: none;
+    }
+
+    .submenu-active {
+      border-radius: 0;
+    }
+  }
+}
