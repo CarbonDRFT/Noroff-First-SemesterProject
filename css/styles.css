@@ -3,6 +3,10 @@ html {
   margin: 0;
 }
 
+main {
+  background-color: rgb(231, 228, 228);
+}
+
 a {
   text-decoration: none;
 }
@@ -24,6 +28,7 @@ h2 {
 h3 {
   font-size: 3rem;
   margin: 0 5%;
+  color: #40d3dc;
 }
 
 p {

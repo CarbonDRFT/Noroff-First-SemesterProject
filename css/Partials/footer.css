@@ -254,15 +254,14 @@ footer {
   .aboutus__accessibility--section {
     background-color: #646464;
     height: auto !important;
-    min-height: 50rem !important;
   }
 
   .aboutus__containers {
     position: relative;
-    top: 5rem;
+
     background-color: #888888;
     width: 25rem !important;
-    height: 15vh !important;
+    height: 19vh !important;
 
     border-radius: 1rem;
     flex-basis: 100%;
