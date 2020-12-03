@@ -53,4 +53,4 @@ setInterval(function () {
   if (counter > 4) {
     counter = 1;
   }
-}, 300500);
+}, 5500);

@@ -6,8 +6,10 @@
 @import "/css/Partials/footer.css";
 @import "/css/Partials/slide.css";
 @import "/css/Partials/about.css";
+@import "/css/Partials/exhibition.css";
 
 /* Font */
+
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600&family=Mulish:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
 /*Font types: 

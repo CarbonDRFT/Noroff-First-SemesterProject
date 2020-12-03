@@ -40,7 +40,7 @@
 .welcome__container--logo {
   width: 70%;
 
-  margin: 0 auto 10% 2%;
+  margin: 0 auto 10% auto;
   display: flex;
   -webkit-transform: translatey(0px);
   transform: translatey(0px);
@@ -73,23 +73,6 @@
   font-size: 4vw;
   color: #000;
   text-transform: uppercase;
-}
-
-.welcome__container--p {
-  color: white;
-  font-size: 2vh;
-  width: 80%;
-
-  line-height: 3rem;
-}
-
-.welcome__container--btn {
-  font-family: "Mulish", sans-serif;
-  padding: 1rem 2rem;
-  background-color: rgb(240, 243, 47);
-  box-shadow: 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-  font-size: 2rem;
 }
 
 .welcome__section--overlay {

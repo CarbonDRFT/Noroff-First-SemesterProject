@@ -2,6 +2,7 @@
   display: flex;
   background-image: url(../../img/william-bout-264826.jpg);
 
+  min-height: 30rem;
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,6 +13,7 @@
 .about__section--overlay {
   position: relative;
   width: 100%;
+  min-height: 30rem;
   height: 100%;
   background: linear-gradient(
     to bottom,
@@ -20,7 +22,8 @@
   );
 }
 
-.about__header--text {
+.about__header--text,
+.exhibition__header--txt {
   position: relative;
   text-align: center;
   width: 60%;
@@ -29,11 +32,13 @@
   padding: 0 0 5% 0;
 }
 
-.about__h1 {
+.about__h1,
+.exhibition__h1 {
   font-size: 400%;
 }
 
-.about__header--p {
+.about__header--p,
+.exhibition__header--p {
   font-size: 2vw;
   color: #fff;
   text-transform: uppercase;
