@@ -1,10 +1,12 @@
 nav {
-  background: rgb(199, 239, 248, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   box-shadow: 2px 2px 3px 3px rgb(0, 0, 0, 0.3);
   font-family: "Archivo Narrow", sans-serif;
   font-weight: 500;
   font-size: 2rem;
   text-transform: uppercase;
+  min-width: 30rem;
+  width: 100%;
 }
 
 ul {
@@ -53,7 +55,7 @@ ul.submenu {
 
 .item:not(.button) a:hover,
 .item a:hover::after {
-  color: #ccc;
+  color: rgb(83, 237, 245);
 }
 
 /* Mobile menu */

@@ -19,8 +19,15 @@
   font-weight: 600;
   color: #fff;
 }
+
+.text {
+  font-size: 1.4rem;
+  font-family: "Mulish", sans-serif;
+}
+
 footer {
   bottom: 0px;
+  min-width: 30rem;
   width: 100%;
   background: #646464;
 }
@@ -33,7 +40,7 @@ footer {
 }
 .box h2 {
   font-family: "Archivo Narrow", sans-serif;
-  font-size: 1.125rem;
+  font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -73,7 +80,7 @@ footer {
   background: #fff;
   line-height: 40px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.4rem;
   border-radius: 5px;
   transition: 0.3s;
   color: #000;
@@ -82,7 +89,7 @@ footer {
   background: #40d3dc;
 }
 .center .content .fas {
-  font-size: 1.4375rem;
+  font-size: 1.4rem;
   background: #fff;
   height: 45px;
   width: 45px;
@@ -96,7 +103,7 @@ footer {
   background: #40d3dc;
 }
 .center .content .text {
-  font-size: 1.0625rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding-left: 10px;
 }
@@ -104,24 +111,24 @@ footer {
   margin: 15px 0;
 }
 .right form .text {
-  font-size: 1.0625rem;
+  font-size: 1.4rem;
   margin-bottom: 2px;
   color: #000;
 }
 .right form .msg {
-  margin-top: 10px;
+  margin: 1rem 0;
 }
 .right form input,
 .right form .msgForm {
   width: 100%;
-  font-size: 1.0625rem;
+  font-size: 1.4rem;
   background: #fff;
   padding-left: 10px;
   border: 1px solid #222222;
 }
 .right form input:focus,
 .right form .msgForm:focus {
-  outline-color: #3498db;
+  outline-color: #40d3dc;
 }
 .right form input {
   height: 35px;
@@ -129,7 +136,7 @@ footer {
 .right form .btn {
   margin-top: 10px;
 }
-.right form .btn button {
+.btn button {
   height: 40px;
   width: 100%;
   border: none;
@@ -141,12 +148,15 @@ footer {
   cursor: pointer;
   transition: 0.3s;
 }
-.right form .btn button:hover {
-  background: rgb(83, 237, 245);
+.btn button:hover {
+  background-color: rgb(83, 237, 245);
+  transform: scaleX(1.05);
+  margin-top: -0.2rem;
+  transition: 0.4s;
 }
 .bottom center {
   padding: 5px;
-  font-size: 0.9375rem;
+  font-size: 1.2rem;
   background: #151515;
 }
 .bottom center span {
@@ -158,126 +168,4 @@ footer {
 }
 .bottom center a:hover {
   text-decoration: underline;
-}
-@media only screen and (max-width: 1030px) {
-  .body__frontpage {
-    width: 100%;
-  }
-
-  footer {
-    position: relative;
-    bottom: 0px;
-  }
-  .main-content {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .main-content .box {
-    margin: 5px 0;
-  }
-
-  .welcome__container,
-  .slider {
-    flex-basis: 100% !important;
-  }
-
-  .welcome__container {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .welcome__container--p {
-    width: 100%;
-  }
-
-  .slider {
-    margin-top: 10%;
-  }
-
-  .navigation-manual,
-  .navigation-auto {
-    width: 100% !important;
-  }
-  .welcome__container--text {
-    margin: 0;
-  }
-
-  .aboutus__accessibility--section {
-    background-color: #646464;
-    height: auto !important;
-  }
-
-  .accessbility__txt > h3 {
-    text-align: center;
-    font-size: 2rem !important;
-    color: #40d3dc;
-  }
-
-  .accessbility__txt > p {
-    font-size: 1rem !important;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  html {
-    width: 100%;
-    margin: 0%;
-  }
-  .welcome__section {
-    height: auto;
-  }
-
-  .slide__robot--img,
-  .slide__robot--txt {
-    flex-basis: 100% !important;
-  }
-
-  .slide__robot--img,
-  .slide__kids--img,
-  .slide__teacher--img {
-    order: 1;
-    height: 40% !important;
-    width: 100% !important;
-  }
-
-  .slide__robot--txt {
-    order: 2;
-    height: 60% !important;
-  }
-
-  .robot__btn {
-    margin-top: 5% !important;
-  }
-
-  .aboutus__accessibility--section {
-    background-color: #646464;
-    height: auto !important;
-  }
-
-  .aboutus__containers {
-    position: relative;
-
-    background-color: #888888;
-    width: 25rem !important;
-    height: 19vh !important;
-
-    border-radius: 1rem;
-    flex-basis: 100%;
-  }
-
-  .about__icons {
-    font-size: 2rem !important;
-  }
-
-  .accessbility__txt > h3 {
-    text-align: center;
-    font-size: 1.3rem !important;
-    color: #40d3dc;
-  }
-
-  .accessbility__txt > p {
-    font-size: 1rem !important;
-  }
 }

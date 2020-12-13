@@ -1,6 +1,7 @@
 .about__header--section {
   display: flex;
   background-image: url(../../img/william-bout-264826.jpg);
+  min-width: 30rem;
 
   min-height: 30rem;
   height: auto;
@@ -84,7 +85,7 @@
 .aboutus__accessibility--section {
   background-color: #646464;
   height: auto;
-
+  min-width: 30rem;
   margin: 5% 0;
   align-items: center;
   padding: 1% 0;
@@ -106,7 +107,7 @@
   width: 25vw;
   height: 27vh;
 
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 .about__icons {
@@ -199,7 +200,7 @@
 .teacher__info {
   flex-basis: 70%;
   height: 100%;
-  background-color: bisque;
+  background-color: #fae0bd;
   clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
   margin-left: -20%;
 

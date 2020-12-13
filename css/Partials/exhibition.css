@@ -17,6 +17,7 @@
   display: flex;
   width: 85%;
   min-height: 30rem;
+
   height: auto;
   box-shadow: 1rem 1rem 1rem 1rem rgb(0, 0, 0, 0.2);
   border-radius: 0rem 2rem 2rem 0;
@@ -25,7 +26,8 @@
 .exhibition__container--right {
   display: flex;
   justify-content: flex-end;
-  width: 80%;
+  width: 85%;
+
   min-height: 30rem;
   height: auto;
   box-shadow: 1rem 1rem 1rem 1rem rgb(0, 0, 0, 0.2);

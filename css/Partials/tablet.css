@@ -1,0 +1,194 @@
+@media only screen and (max-width: 1030px) {
+  .body__frontpage {
+    width: 100%;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box {
+    margin: 5px 0;
+  }
+
+  .welcome__container,
+  .slider {
+    flex-basis: 100% !important;
+  }
+
+  .welcome__container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .welcome__container--p {
+    width: 100%;
+  }
+
+  .welcome__container--logo {
+    width: auto;
+  }
+
+  .slider {
+    margin-top: 10%;
+  }
+
+  .navigation-manual,
+  .navigation-auto {
+    width: 100% !important;
+  }
+  .welcome__container--text {
+    margin: 0;
+  }
+
+  .about__header--p,
+  .exhibition__header--p {
+    font-size: 3vw;
+  }
+
+  .aboutus__accessibility--section {
+    background-color: #646464;
+    height: auto !important;
+  }
+
+  .accessbility__txt > h3 {
+    text-align: center;
+    font-size: 2rem !important;
+    color: #40d3dc;
+  }
+
+  .accessbility__txt > p {
+    font-size: 1rem !important;
+  }
+
+  .text__underline {
+    width: 10rem;
+  }
+
+  .visit__container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+  }
+
+  .visit__hours,
+  .visit__admission,
+  .visit__location {
+    width: 60%;
+  }
+
+  .visit__txt > h3 {
+    margin: 5% 0;
+    font-size: 3vw;
+  }
+
+  .visit__txt > ul {
+    font-size: 1.7vw;
+  }
+
+  .visit__txt > p {
+    font-size: 1.6vw;
+    width: 80%;
+    margin-left: 5%;
+  }
+
+  .news__aeronautics--txt,
+  .news__aeronautics--img {
+    flex-basis: 100%;
+    border-radius: 0;
+  }
+
+  .news__aeronautics--img {
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .news__aeronautics--txt {
+    order: 2;
+    border-radius: 0 0 2rem 2rem;
+  }
+
+  .news__label {
+    position: relative;
+    top: -2rem;
+    left: -2rem;
+  }
+
+  .news__aeronautics--txt > h2 {
+    font-size: 4vw;
+  }
+
+  .date__p {
+    flex-basis: 100%;
+  }
+
+  .book__now {
+    margin: 0 auto 5% auto;
+    text-align: center;
+  }
+
+  .exhibition__container--left,
+  .exhibition__container--right {
+    flex-wrap: wrap;
+    margin: 5% auto;
+    border-radius: 2rem;
+  }
+
+  .exhibition__txt--left,
+  .exhibition__img--right {
+    clip-path: none;
+  }
+
+  .exhibition__txt--left {
+    order: 2;
+    text-align: center;
+    margin: auto;
+    border-radius: 0 0 2rem 2rem;
+  }
+
+  .exhibition__txt--right {
+    text-align: center;
+    margin: auto;
+    clip-path: none;
+    width: 100%;
+    height: auto;
+    flex-basis: 100%;
+    border-radius: 2rem;
+    border-radius: 0 0 2rem 2rem;
+  }
+
+  .exhibition__img--right {
+    flex-basis: 100%;
+    order: 1;
+    height: auto;
+    border-radius: 0;
+    height: 20rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .exhibition__img--left {
+    flex-basis: 100%;
+    clip-path: none;
+    height: auto;
+    border-radius: 0;
+    height: 20rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .exhibition__txt--left > h3,
+  .exhibition__txt--left > p,
+  .exhibition__txt--right > h3,
+  .exhibition__txt--right > p {
+    margin: 4% auto;
+    text-align: center;
+    width: 80%;
+  }
+}
