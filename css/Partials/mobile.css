@@ -125,4 +125,20 @@
   .news__aeronautics--txt {
     border-radius: 0 0 2rem 2rem;
   }
+
+  .forkids__info > h3,
+  .research__info > h3,
+  .teacher__info > h3 {
+    font-size: 7vw;
+  }
+
+  .forkids__info > p,
+  .research__info > p,
+  .teacher__info > p {
+    font-size: 3vw;
+  }
+
+  .contact > h1 {
+    font-size: 3rem;
+  }
 }

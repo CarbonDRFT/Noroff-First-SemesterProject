@@ -103,7 +103,7 @@
   font-size: 2rem;
 }
 
-.news__aeronautics--img {
+.news__event--img {
   background-image: url(/img/skeleton.jpg);
   flex-basis: 40%;
   background-position: center;
@@ -113,4 +113,16 @@
   height: auto;
   min-height: 30rem;
   border-radius: 0 2rem 2rem 0;
+}
+
+.event__aeronautics--img {
+  background-image: url(/img/binoculars-2028304.svg);
+}
+
+.event__sleepover--img {
+  background-image: url(/img/roberto-nickson-396152.jpg);
+}
+
+.event__loan--img {
+  background-image: url(/img/turbines.jpg);
 }

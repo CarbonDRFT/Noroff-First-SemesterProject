@@ -59,6 +59,7 @@
   display: flex;
   margin-top: 2%;
   height: auto;
+
   width: 80%;
   min-height: 30rem;
   background-color: #646464;
@@ -132,6 +133,7 @@
 .explore__container {
   margin: 5% 0 3% 0;
   display: flex;
+
   width: 80%;
   min-height: 30rem;
   height: auto;
@@ -213,6 +215,7 @@
 
 .teacher__info > p {
   margin: 0 3% 0 30%;
+  font-size: 2vh;
 }
 
 .teacher__img {
