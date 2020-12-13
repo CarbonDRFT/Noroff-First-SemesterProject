@@ -26,7 +26,7 @@
 }
 
 .slide__robot--p {
-  font-size: 1vh;
+  font-size: 2vh;
   margin: 0% 5%;
 }
 
@@ -50,7 +50,7 @@
   width: 19vw;
   text-align: center;
   margin: 15% auto;
-  border-radius: 0.3rem;
+  border-radius: 1rem;
 }
 
 .robot__btn:hover {
@@ -79,8 +79,8 @@
 }
 
 .slide__news--img {
-  background-image: url("https://cdn.mos.cms.futurecdn.net/NSWfrgUNSFYaUgKUUqdR9i-1200-80.gif");
-  background-size: cover;
+  background-image: url("/img/internship.jpg");
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: left;
   width: 60%;

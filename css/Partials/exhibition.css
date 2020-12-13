@@ -83,8 +83,16 @@
   border-radius: 2rem 0 0 2rem;
 }
 
+.exhibition__date--left > a {
+  margin-right: 30%;
+}
+
+.exhibition__date--right > p {
+  margin-left: 28%;
+}
+
 .cosmology__img {
-  background-image: url(/img/space.jpg);
+  background-image: url(/img/binoculars-2028304.svg);
 }
 
 .evolution__img {

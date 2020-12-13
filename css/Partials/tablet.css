@@ -30,7 +30,6 @@
     text-decoration: none;
   }
 
-  /* Desktop menu */
   @media all and (min-width: 960px) {
     .menu {
       align-items: flex-start;
@@ -71,7 +70,13 @@
   }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 700px) {
+  .highlight__container {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
   .body__frontpage {
     width: 100%;
   }
@@ -276,6 +281,31 @@
     width: 80%;
   }
 
+  .donation__container {
+    flex-basis: 100%;
+    clip-path: none;
+    height: 20rem;
+    order: 2;
+    margin: auto;
+    padding-bottom: 7%;
+    border-radius: 0 0 2rem 2rem;
+  }
+
+  .donation__txt {
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .donation__container > h3 {
+    text-align: center;
+    margin: 3% auto;
+  }
+
+  .donate__items,
+  .donate__money {
+    margin: auto;
+    text-align: center;
+  }
+
   .aboutus__main--section {
     margin: 5% auto;
     border-radius: 2rem;
@@ -353,5 +383,17 @@
     flex-basis: 100%;
     clip-path: none;
     background-position-y: 20%;
+  }
+
+  .highlight__section--h2 {
+    font-size: 4vw;
+  }
+
+  .exhibition__date--left > a {
+    margin: 3% auto;
+  }
+
+  .exhibition__date--right > p {
+    margin: 3% auto;
   }
 }

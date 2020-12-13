@@ -50,6 +50,7 @@
 
 .welcome__container--logo > img {
   margin: auto;
+  min-width: 30rem;
   width: 40rem;
   animation: 2s ease-in-out infinite alternate-reverse both;
   animation-play-state: running;
@@ -98,6 +99,11 @@
   min-width: 30rem;
 }
 
+.highlight__section--h2 {
+  text-align: center;
+  font-size: 3vw;
+}
+
 .highlight__section {
   display: flex;
   align-items: center;
@@ -107,7 +113,8 @@
 
 .highlight__container {
   margin: 5% 3% 0 3%;
-  height: 70vh;
+  min-height: 50rem;
+  height: auto;
   background-color: #646464;
   width: 35%;
   min-width: 30rem;
@@ -119,7 +126,7 @@
 
 .highlight__container--img1 {
   margin: 0;
-  background-image: url(/img/space.jpg);
+  background-image: url(/img/binoculars-2028304.svg);
   width: 100%;
   height: 20rem;
   background-repeat: no-repeat;
@@ -130,6 +137,26 @@
 
 .highlight__container--img2 {
   background-image: url(/img/skeleton.jpg);
+  width: 100%;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 1.5rem;
+}
+
+.highlight__container--img3 {
+  background-image: url(/img/Sheila.jpg);
+  width: 100%;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-position-y: 20%;
+  background-size: 100%;
+  border-radius: 1.5rem;
+}
+
+.highlight__container--img4 {
+  background-image: url(/img/roberto-nickson-396152.jpg);
   width: 100%;
   height: 20rem;
   background-repeat: no-repeat;
@@ -149,41 +176,48 @@
 }
 
 .highlight__container--p {
-  margin: 5% 5% 10% 5%;
+  margin: 5% 5% 5% 5%;
   font-size: 1.8vh;
 }
 
 .label__exhibition {
-  padding: 1rem;
-  background-color: thistle;
-  box-shadow: 2px 2px 3px 3px rgba(255, 141, 141, 0.233);
+  padding: 1rem 3rem;
+  margin-left: -2rem;
+  margin-top: 0.3rem;
+  background-color: #fae0bd;
+  clip-path: polygon(0 0, 75% 0, 100% 50%, 75% 100%, 0 100%, 10% 50%);
 }
 
 .label__special {
-  padding: 1rem 3rem 1rem 1rem;
-  background-color: rgb(11, 152, 196);
-  box-shadow: 2px 2px 3px 3px rgb(0, 0, 0, 0.13);
+  padding: 1rem 3rem;
+  margin-left: -2rem;
+  margin-top: 0.3rem;
+  background-color: #fae0bd;
+  clip-path: polygon(0 0, 75% 0, 100% 50%, 75% 100%, 0 100%, 10% 50%);
 }
 
 .date {
   padding: 1rem;
-  background-color: thistle;
+  width: auto;
+  background-color: #40d3dc;
   box-shadow: 2px 2px 3px 0px rgb(0, 0, 0, 0.13);
 }
 
 .highlight__container--btn {
-  font-family: "Mulish", sans-serif;
+  font-family: "Archivo Narrow", sans-serif;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   position: relative;
   padding: 1.3vh 0.2vh;
   font-size: 1.6vw;
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0, 0, 0, 0.3);
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0, 0, 0, 0.2);
   width: 12vw;
-  margin: auto;
+  margin: 0 auto 5% auto;
   text-align: center;
-  background-color: white;
-  border-radius: 0.3rem;
+  background-color: #40d3dc;
+  color: #fff;
+  border-radius: 1rem;
 }
 
 .highlight__container--btn:hover {
@@ -194,20 +228,25 @@
 }
 
 .viewall {
-  width: 12rem;
+  width: 16rem;
   margin: 5% auto 2% auto;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 2rem;
 }
 
 .viewall__btn {
+  background-color: #fff;
   padding: 1rem 4rem;
   border-radius: 1rem;
-  border: 0.1rem solid #000;
+  text-transform: uppercase;
   width: 10%;
   margin: auto;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgb(0, 0, 0, 0.2);
 }
 
 .viewall__btn:hover {
-  background-color: rgb(68, 68, 68);
+  background-color: rgb(83, 237, 245);
+  border: none;
 }
 
 .viewall:hover {
