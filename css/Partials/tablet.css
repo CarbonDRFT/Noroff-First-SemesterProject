@@ -93,6 +93,10 @@
     flex-basis: 100% !important;
   }
 
+  .welcome__slider {
+    height: 100%;
+  }
+
   .welcome__container {
     width: 100%;
     margin: auto;
@@ -100,6 +104,13 @@
     justify-content: center;
   }
 
+  .welcome__container--logo {
+    margin-bottom: 4%;
+  }
+
+  .welcome__container--h1 {
+    font-size: 6vw;
+  }
   .welcome__container--p {
     width: 100%;
   }
@@ -109,7 +120,7 @@
   }
 
   .slider {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .navigation-manual,
